@@ -1,0 +1,56 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Compilación y pruebas
+dist/
+**/dist/
+coverage/
+**/coverage/
+.vite/
+**/.vite/
+
+# Variables y secretos locales
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+.secrets/
+**/.secrets/
+appcheck-debug-token.txt
+**/appcheck-debug-token.txt
+credentials*.json
+**/credentials*.json
+
+# Firebase local
+.firebase/
+**/.firebase/
+firebase-debug.log
+firebase-debug.log.*
+firestore-debug.log
+firestore-debug.log.*
+database-debug.log
+database-debug.log.*
+ui-debug.log
+ui-debug.log.*
+emulator-data/
+**/emulator-data/
+
+# Editores y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales
+*.log
+*.tmp
+*.swp
+
+# Material interno de revisión de Codex
+.codex_review/
+.codex_restructure/
